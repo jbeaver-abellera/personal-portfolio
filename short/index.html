@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beaver Abellera | Software Engineer </title>
+  <link rel="stylesheet" href="src/style.css">
+  <link rel="stylesheet" href="src/charc.css">
+  <link rel="icon" href="src/images/BAlogo.svg">
+  <script defer src="src/script.js"></script>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-ends">
+      <a href="https://www.linkedin.com/in/joshua-beaver-abellera/" class="nav-link">
+        <img src="src/images/LinkedIn_Logo.svg.webp" class="logo">
+      </a>
+    </div>
+    <ul>
+      <li><a href="#" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#interests" class="nav-link" >Interests</a></li>
+      <li><a href="#achievements" class="nav-link">Achievements</a></li>
+    </ul>
+    <div class="nav-ends">
+      <p>Inspired by:</p>
+      <a href="https://github.com/MKPW27" class="github"><img src="src/images/logo.svg"></a>
+    </div>
+  </nav>
+  <div id="home">
+      <div class="header-text">
+        <p class="type-animation">Welcome to my portfolio!</p>
+        <h1 class="hidden">Hi, I'm <span>Beaver Abellera</span></h1>
+        <h1 class="hidden">A passionate software engineer</h1>
+        <ul class="hidden view-counter" id="viewsss">Views: Not found</ul>
+      </div>
+  </div>
+
+
+<div id="about" class="page-links">
+  <img src="src/images/LOGO.png" class="profile-pic" alt="My Profile Pic">
+  <hgroup class="speech-bubble">
+    <div class="about-text">
+      <p><strong>Joshua Beaver Abellera</strong></p>
+      <p><strong>Licensed ECE | SAP FICO Consultant | Certified AWS SAA</strong></p>
+      <p>A versatile team player with initiative, a person that makes efifcient use of available resources, and most importantly, a <span class="rainbow_text_animated"> curious explorer</span>.</p>
+      <p>From movies to animes and even in work, I love dissecting and seeing how they are made.</p>
+    </div>
+  </hgroup>
+</div>
+
+
+
+  <div id="projects">
+    <div class="project-container">
+        <a href="#popup1">
+            <div class="project-card" id="show1">
+                <div class="content projects-hidden">
+                    <h1 class="show-title">Bills Reminder<br>App</h1>
+                </div>
+                <img src="src/images/bills-reminder.jpg">
+            </div>
+        </a>
+
+        <a href="#popup2">
+            <div class="project-card">
+                <div class="content projects-hidden">
+                    <h1 class="show-title">Personal Portfolio</h1>
+                </div>
+                <img src="src/images/portfolio.png"/>
+            </div>
+        </a>
+
+        <a href="#popup3">
+          <div class="project-card" id="show3">
+              <div class="content projects-hidden">
+                  <h1 class="show-title">Machine Learning</h1>
+              </div>
+              <img src="src/images/ML-output.png"/>
+          </div>
+      </a>
+
+
+      <a href="#popup4">
+        <div class="project-card"  id="show3">
+            <div class="content projects-hidden">
+                <h1 class="show-title">MPU</h1>
+            </div>
+            <img src= "src/images/CPU-registers.png"/>
+          </div>
+      </a>
+    </div>
+</div>
+
+
+<div id="popup1" class="overlay">
+  <div class="popup">
+    <div class="popup-header">
+      <h2>Bills Reminder App</h2>
+      <a class="close" href="#projects">&times;</a>
+    </div>
+    <div class="popup-container">
+      <div class="content-overlay">
+        <p class="popup-overlay">An app that would remind its users if they have bills that are nearing due date or is ovedue. Deployed using AWS API gateway, lambda, dynamo, SNS, and EvenBridge.</p>
+      </div>
+      <img src="src/images/bills-reminder.jpg">
+    </div>
+  </div>
+</div>
+
+<div id="popup2" class="overlay">
+  <div class="popup">
+    <h2>Personal Portfolio</h2>
+      <a class="close" href="#projects">&times;</a>
+      <div class="popup-container">
+        <div class="content-overlay">
+            <p>Created this portfolio so people in the internet like you can get to know me. Hello there! </p>
+            <p>Hosted in AWS and based on a portfolio by <a href="https://github.com/MKPW27">MKPW27</a>.</p>
+        </div>
+        <img src="src/images/portfolio.png" >
+    </div>
+  </div>
+</div>
+
+<div id="popup3" class="overlay">
+  <div class="popup">
+    <h2>ML Model to Classify Eggplant Disease<br>from Leaf Images</h2>
+    <a class="close" href="#projects">&times;</a>
+      <div class="popup-container">
+        <div class="content-overlay">
+            <p>Helped a colleague built her machine learning capstone. This model takes in an image of eggplant leaf, and classifies if it is a healthy leaf or have diseases such as Cercospora Leaf Spot.</p>
+            <p>This project used python's tensorflow library to create a custom neural network, and fed it into a random forest algorithm for improved perfromance.</p>
+        </div>
+        <img src="src/images/ML-output.png" >
+    </div>
+  </div>
+</div>
+
+<div id="popup4" class="overlay">
+  <div class="popup">
+    <h2>Microprocessor Unit</h2>
+      <a class="close" href="#projects">&times;</a>
+      <div class="popup-container">
+        <div class="content-overlay">
+            <p>Created a microprocessing unit in FPGA simulator during my undergraduate studies. In this project I learned about low - level programming, and how each block communicates and transfers data from each other to handle instructions provided by external inputs.</p>
+            <p><i>Image only for refernce.</i></p>
+        </div>
+        <img src="src/images/CPU-registers.png" >
+    </div>
+  </div>
+</div>
+
+<div id="interests" class="page-links">
+    <div class="content"> 
+      <ul class="list-group">
+        <li class="list">
+          <div class="thumb"><img src="src/images/perfect-blue.jpg"></div>
+          <div class="description">
+            <h3>Anime</h3>
+            <p class="interest">Anime has always been my comfort zone in life. I've watched a lot during the pandemic and continue to do so from time to time. It always felt reminiscient of my childhood days. Some of my favorites are Monster, Kaguya-sama, Perfect Blue, and many more.</p>
+          </div>
+        </li>
+        <li class="list">
+          <div class="thumb"><img src="src/images/blade-runner-2049.jpg"></div>
+          <div class="description">
+            <h3>Movies</h3>
+            <p class="interest">Other than anime, watching movies always felt like a time well spent for me. The runtime feels right, and people in the industry have been really creative and innovative in crafting art, displaying emotions or bringing explosive entertainment. </p>
+        </li>
+        <!-- <li class="list">
+          <div class="thumb"><img src="src/images/gaming.jpeg"></div>
+          <div class="description">
+            <h3>Tech Youtubers</h3>
+            <p>
+              One of my boring sides is that my social media feed hast lots of tech-related posts. I like knowing the current trend and see how that trend changes the industry. And even sometimes, I watch .
+          </div>
+        </li> -->
+        <li class="list">
+          <div class="thumb"><img src="src/images/DDLC.jpg"></div>
+          <div class="description">
+            <h3>Gaming</h3>
+            <p class="interest">Although I still consider myself as a noob, I do enjoy playing video games. When done right, they give interactive and really refreshing experience that immerse you in a world where everythin is cool and has engaging mechanics. It really do make time flies  Some I played are Persona 5, ETG, Dave the Diver, and DDLC.</p>
+          </div>
+        </li>
+      </ul>
+    
+    </div>
+</div>
+
+<div id="achievements" class="achievement-scroll">
+    <hgroup class="achievements-container">
+      <h2 class="hidden">Cloud Computing:</h2>
+      <ul class="hidden">
+          <li><p>Serverless functions, server-based applications, databases, messaging services, REST API, subnetting and networking, security, and other microservices.</p></li>
+      </ul>
+      <h2 class="hidden">Python:</h2>
+      <ul class="hidden">
+          <li><p>Pandas library (data analysis), Tensorflow (machine learning), OOP, scripting and webscraping. </p></li>
+      </ul>
+      <h2 class="hidden">Operating Systems:</h2>
+      <ul class="hidden">
+          <li><p>Skilled in Windows and familiar with various shell commands. Also launched a CentOS instance in AWS.</p></li>
+      </ul>
+      <h2 class="hidden">Programming Languages</h2>
+      <ul class="hidden">
+          <li><p>Proficient C++, Java, and Javascript. Also built small websites using HTML and CSS.</p></li>
+      </ul>
+      <h2 class="hidden">Mathematics:</h2>
+      <ul class="hidden">
+          <li><p>Took courses in linear algebra, vector analysis, calculus, differential equations, engineering mathematics, and discrete math.</p></li>
+      </ul>
+      <h2 class="hidden">Networking</h2>
+      <ul class="hidden">
+          <li><p>Experience in setting up networks both in cloud and in Cisco Packet Tracer. Familiar in switching, routing, subnetting, wiring and cybersecurity, .</p></li>
+      </ul>
+  </hgroup>
+    
+</div>
+
+</body>
+</html>
