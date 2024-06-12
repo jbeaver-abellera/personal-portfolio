@@ -19,3 +19,6 @@ It takes a greate amount of focus and understading to acomplish the tasks
 more compatibility on mobile devices
 # Other thoughts that might be noteworthy
 Dont cram, the forums is you friend / ai debuging
+
+
+test
