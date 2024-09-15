@@ -3,7 +3,7 @@ name: Deploy Infrastructure
 on:
   push:
     branches:
-      - terraform/test1
+      - terraform/test3
 
 jobs:
   tf_fmt:
