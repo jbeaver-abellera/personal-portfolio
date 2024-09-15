@@ -23,6 +23,6 @@ resource "aws_instance" "sample" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "TF-Manual-Access-Key"
+    Name = "tf-via-gha"
   }
 }
